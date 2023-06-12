@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* HEADER */
+
+.header-top{
+
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+/* MAIN */
+
+.info{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+}
+
+.delivery{
+    background-color: aqua;
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+    margin: 2px;
+}
+
+.podio{
+    background-color: white;
+    display: flex;
+    width: 600px;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    
+}
+
+
+.top-pizzas ol li{
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.top-pizzas{
+
+    padding-top: 40px;
+}
+
+h3{
+    position: absolute;
+    padding-bottom: 350px;
+    color: #FC200C;
+}
+
+h2{
+    color: #FC200C;
+    margin: 20px;
+    font-weight: 800;
+}
+
+h2 span{
+
+    color: white;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 5px 10px;
+}
+
+.quick-access{
+    color: white;
+    padding: 20px;
+    list-style: none;
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.quick-access>ul>li{
+
+    list-style: none;
+}
+
